@@ -1,0 +1,141 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  border-radius: 10px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: #ff0000;
+}
+
+/************* desktop layout*************/
+
+@media (min-width: 768px) {
+  h2 {
+    margin-top: 0;
+  }
+  /************* index.html*************/
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+  }
+  .grid_2-1 .child_2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .grid_1-1 .order {
+    grid-area: 1 / 2;
+  }
+  .grid_1-1 img {
+    grid-area: 1 / 1;
+  }
+
+  /************* galleri.html*************/
+
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .grid_1-1-1-1 .img-big {
+    grid-area: span 2 / span 2;
+  }
+
+  .grid_1-1-1-1 .img-wide {
+    grid-area: span 1 / span 2;
+  }
+  .grid_1-1-1-1 .img-wider {
+    grid-area: span 1 / span 3;
+  }
+
+  /************* operativsystemer.html*************/
+
+  .grid_5-3 {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    gap: 10px;
+  }
+  .grid_2-3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+  }
+  .grid_3-2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+  }
+  .grid_3-2 .order {
+    grid-area: 1;
+  }
+
+  /************* komponenter.html*************/
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .flex_col img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .flex_col > :last-child {
+    margin-top: auto;
+  }
+}

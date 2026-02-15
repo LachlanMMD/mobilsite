@@ -4,10 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min Computer</title>
+    <title>Index</title>
     <meta name="robots" content="noindex">
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/generel.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap"
+        rel="stylesheet">
 </head>
 
 
@@ -15,7 +20,7 @@
     <header>
         <nav>
             <!-- shortcut: "ul>li*5>a" -->
-            <ul>
+            <ul class="menu">
                 <li><a href="index.html">Forside</a></li>
                 <li><a href="galleri.html">Galleri</a></li>
                 <li><a href="operativsystemer.html">Operativ Systemer</a></li>
@@ -29,25 +34,33 @@
 
     <main>
         <h1> Min Computer</h1>
-        <img src="imgs/my-mac.jpg" alt="billed af min computer">
+
+        <section class="grid_1-1">
+            <div>
+                <img src="imgs/my-mac.jpg" alt="billed af min computer">
+            </div>
+
+            <div>
+                <h2>Type</h2>
+                <p> Min MacBook Pro fra 2021 er en hurtig og pålidelig computer, som jeg bruger til både skolearbejde og
+                    kreative opgaver.
+                    Den er nem at have med rundt, batteriet holder længe, og den kan klare mange ting på en gang uden at
+                    blive
+                    langsom (endnu). Den er god til både hverdagsbrug og opgaver som arbejde med billeder, lyd, video,
+                    og nu
+                    også kodning.</p>
+                <h2>Specifikationer</h2>
+
+                <ul class="liste_mc">
+                    <li>Model: Macbook Pro</li>
+                    <li>Processor: Apple M1</li>
+                    <li> Hukommelse: 16GB RAM</li>
+                    <li> OS: macOS</li>
+                </ul>
+            </div>
+
+        </section>
     </main>
-    <h2>Type</h2>
-    <p> Min MacBook Pro fra 2021 er en hurtig og pålidelig computer, som jeg bruger til både skolearbejde og
-        kreative opgaver.
-        Den er nem at have med rundt, batteriet holder længe, og den kan klare mange ting på en gang uden at blive
-        langsom (endnu). Den er god til både hverdagsbrug og opgaver som arbejde med billeder, lyd, video, og nu
-        også kodning.</p>
-    <h2>Specifikationer</h2>
-    <p>
-    <ul>
-        <li>Model: Macbook Pro</li>
-        <li>Processor: Apple M1</li>
-        <li> Hukommelse: 16GB RAM</li>
-        <li> OS: macOS</li>
-
-    </ul>
-    </p>
-
     <footer>
         <p> Lavet af Lachlan</p>
     </footer>
