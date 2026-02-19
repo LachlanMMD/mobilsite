@@ -30,7 +30,7 @@ body {
 /*************** Tekst *********************/
 @font-face {
   font-family: "Cleavers";
-  src: url(/fonts/cleavers_juvenia/Cleavers_Juvenia.woff), url(/fonts/cleavers_juvenia/Cleavers_Juvenia.woff2);
+  src: url(fonts/cleavers_juvenia/Cleavers_Juvenia.woff), url(fonts/cleavers_juvenia/Cleavers_Juvenia.woff2);
   font-weight: 400;
   font-style: normal;
 }
