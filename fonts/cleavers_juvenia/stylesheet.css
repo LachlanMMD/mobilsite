@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Cleaver\'s_Juvenia_Embossed';
+    src: url('Cleavers_Juvenia_Embossed.woff2') format('woff2'),
+        url('Cleavers_Juvenia_Embossed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cleaver\'s_Juvenia_Raised';
+    src: url('Cleavers_Juvenia_Raised.woff2') format('woff2'),
+        url('Cleavers_Juvenia_Raised.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cleaver\'s_Juvenia_Blocked';
+    src: url('Cleavers_Juvenia_Blocked.woff2') format('woff2'),
+        url('Cleavers_Juvenia_Blocked.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cleaver\'s_Juvenia_Heavy';
+    src: url('Cleavers_Juvenia_Heavy.woff2') format('woff2'),
+        url('Cleavers_Juvenia_Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cleaver\'s_Juvenia';
+    src: url('Cleavers_Juvenia.woff2') format('woff2'),
+        url('Cleavers_Juvenia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cleaver\'s_Juvenia_Shadowed';
+    src: url('Cleavers_Juvenia_Shadowed.woff2') format('woff2'),
+        url('Cleavers_Juvenia_Shadowed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
